@@ -5,7 +5,7 @@ const PORT = 5500;
 serverApp.use(express.json());
 
 //---------------------------- Iniciar servidor
-serverApp.listen(5500, (error) => {
+serverApp.listen(PORT, (error) => {
     console.log('Servidor Node.js funcionando 😎');
     console.table({
         "⛳️ PASO #1 ->": "Ingresa las siguientes URL en el navegador para ver las webs apps",
